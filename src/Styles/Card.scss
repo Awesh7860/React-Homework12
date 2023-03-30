@@ -1,0 +1,28 @@
+.card{
+    width: 30%;
+    height: 45vh;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    >img{
+        width: 160px;
+        height: 160px;
+    }
+    >h4{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    >button{
+        width: 80px;
+        height: 30px;
+        color: white;
+        background-color: crimson;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+}
